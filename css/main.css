@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Laila:400,600');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,7 +12,7 @@ body {
 
 h2 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
     text-align: center;
     margin-top: 0;
@@ -37,18 +37,12 @@ small {
     padding: 10px 40px;
 }
 
-.logo a {
-  background-image: url("../img/logo.png");
-  width: 120px;
-  height: 90px;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  text-align: center;
-  display: none;
+.logo {
+  font-family: 'Laila', serif;
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
 }
 
 nav {
@@ -132,14 +126,15 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#home .logo {
-  display: block;
-}
+
 #home h2 {
+    font-family: 'Laila', serif;
+    font-size: 60px;
     margin-top: 100px;
     color: #fff;
-    background-color: rgba(66, 129, 164, 0.9);
-    padding: 30px;
+    /*background-color: rgba(66, 129, 164, 0.6);
+    padding: 30px;*/
+
 }
 #home, #gallery {
     background-color: #3A4653;
